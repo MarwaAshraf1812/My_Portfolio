@@ -41,7 +41,7 @@ export default function Navbar({ isDark, setIsDark, activeSection }) {
             href="#about"
             className="flex items-center hover:opacity-95 transition-opacity"
           >
-            <img src="/logo.png" alt="Marwa Ashraf Logo" className="h-6 w-auto rounded-md" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Marwa Ashraf Logo" className="h-6 w-auto rounded-md" />
           </a>
 
           <div className="hidden sm:flex items-center space-x-6">

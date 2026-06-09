@@ -62,6 +62,13 @@ export const timelineData = [
     type: 'education'
   },
   {
+    year: '10/2021 — 07/2025',
+    role: 'Bachelor, Business Information System',
+    company: 'Modern Academy, Cairo, Egypt',
+    description: 'Graduated with an excellent GPA of 3.88. Specialized in business database systems and enterprise web applications.',
+    type: 'education'
+  },
+  {
     year: '2024',
     role: 'React Software Developer',
     company: 'DEPI — Ministry of Communications and IT (Internship)',
@@ -71,13 +78,6 @@ export const timelineData = [
       'Delivered multiple production-ready web applications using JavaScript, Bootstrap, and clean code principles.'
     ],
     type: 'work'
-  },
-  {
-    year: '10/2021 — 07/2025',
-    role: 'Bachelor, Business Information System',
-    company: 'Modern Academy, Cairo, Egypt',
-    description: 'Graduated with an excellent GPA of 3.88. Specialized in business database systems and enterprise web applications.',
-    type: 'education'
   },
   {
     year: '09/2023 — 07/2024',

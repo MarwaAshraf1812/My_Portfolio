@@ -26,7 +26,7 @@ export default function Timeline() {
               <div key={idx} className={`relative flex flex-col md:flex-row items-stretch ${isLeft ? 'md:flex-row-reverse' : ''}`}>
 
                 <div className="absolute left-8 md:left-1/2 transform -translate-y-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-[#A78BFA] border-4 border-white dark:border-[#0D0D0F] z-10" style={{ top: '24px' }} />
-                <div className="w-full md:w-1/2 pl-16 md:pl-0 md:px-12">
+                <div className={`w-full md:w-1/2 pl-16 ${isLeft ? 'md:pl-5 md:pr-20' : 'md:pl-20 md:pr-5'}`}>
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
