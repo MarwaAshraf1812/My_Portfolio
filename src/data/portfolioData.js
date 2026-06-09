@@ -1,3 +1,7 @@
+import naqlaImg from '../assets/Naqla.png'
+import financeImg from '../assets/Finance.png'
+import noorImg from '../assets/Noor.png'
+
 export const skillsCategories = [
   {
     title: 'Frontend Technologies',
