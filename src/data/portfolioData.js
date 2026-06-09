@@ -108,7 +108,7 @@ export const projectsData = [
     tags: ['LangGraph.js', 'BullMQ', 'Redis', 'React', 'Node.js'],
     metric: '5-stage pipeline',
     github: 'https://github.com/orgs/RecruitAIApp/repositories',
-    demo: 'https://github.com/RecruitAIApp/client'
+    demo: 'https://naqla-recruiter.vercel.app/'
   },
   {
     title: 'Personal Finance Tracker',
