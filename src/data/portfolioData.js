@@ -65,7 +65,7 @@ export const timelineData = [
     year: '10/2021 — 07/2025',
     role: 'Bachelor, Business Information System',
     company: 'Modern Academy, Cairo, Egypt',
-    description: 'Graduated with an excellent GPA of 3.88. Specialized in business database systems and enterprise web applications.',
+    description: 'Graduated with an excellent GPA of 3.88.',
     type: 'education'
   },
   {
