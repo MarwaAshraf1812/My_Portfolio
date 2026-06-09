@@ -1,6 +1,12 @@
 import naqlaImg from '../assets/Naqla.png'
 import financeImg from '../assets/Finance.png'
 import noorImg from '../assets/Noor.png'
+import workshop from '../assets/Workshop.png'
+import InnoVest from '../assets/Innovest.png'
+import cliImg from '../assets/CLI.png'
+import taskImg from '../assets/taskmanaager.png'
+import IcedIMg from '../assets/Iced.png'
+
 
 export const skillsCategories = [
   {
@@ -98,98 +104,87 @@ export const projectsData = [
     tag: 'AI · Team',
     category: ['AI', 'Full-Stack'],
     image: naqlaImg,
-    description: 'Spearheaded end-to-end design and launch of a real-time AI recruitment pipeline. Built async processing networks to automate post-screening state transitions.',
+    description: 'Designed an AI recruitment pipeline with async networks for automated post-screening state transitions.',
     tags: ['LangGraph.js', 'BullMQ', 'Redis', 'React', 'Node.js'],
     metric: '5-stage pipeline',
-    github: 'https://github.com/MarwaAshraf1812',
-    demo: '#'
+    github: 'https://github.com/orgs/RecruitAIApp/repositories',
+    demo: 'https://github.com/RecruitAIApp/client'
   },
   {
     title: 'Personal Finance Tracker',
     tag: 'Full-Stack · Team',
     category: ['Full-Stack'],
     image: financeImg,
-    description: 'Architected a multi-user financial system using layered MVC. Optimized data processing via MongoDB Aggregation Pipelines across transaction and trend reporting.',
+    description: 'Architected a multi-user financial system. Optimized reporting via MongoDB Aggregation Pipelines.',
     tags: ['MongoDB', 'Angular', 'Node.js', 'Express.js'],
     metric: '324ms / 10k records',
-    github: 'https://github.com/MarwaAshraf1812',
-    demo: '#'
+    github: 'https://github.com/MarwaAshraf1812/finance-tracker-app',
+    demo: 'https://github.com/MarwaAshraf1812/finance-tracker-app'
   },
   {
     title: 'Workshop Management System',
     tag: 'Backend',
     category: ['Backend'],
-    image: 'https://via.placeholder.com/600x400/1A1825/A78BFA?text=Workshop+System',
-    description: 'Engineered a scalable REST API to manage workshops and student progress. Integrated Role-Based Access Control and real-time updates using Socket.io.',
+    image: workshop,
+    description: 'Engineered a REST API for workshop management, featuring RBAC and real-time Socket.io updates.',
     tags: ['Express', 'Prisma', 'PostgreSQL', 'Socket.io', 'Docker'],
     metric: 'Real-time updates',
-    github: 'https://github.com/MarwaAshraf1812',
-    demo: '#'
+    github: 'https://github.com/MarwaAshraf1812/workshop_management_server',
+    demo: 'https://github.com/MarwaAshraf1812/workshop_management_server'
   },
   {
     title: 'Noor',
     tag: 'Frontend · Full-Stack',
     category: ['Full-Stack'],
     image: noorImg,
-    description: 'Built a full-stack platform to gamify Quran memorization and prayer tracking for children. Engineered a Rewards System with gamification mechanics.',
+    description: 'Built a full-stack gamified platform for children to track prayers and Quran memorization.',
     tags: ['React', 'Node.js', 'Figma'],
     metric: 'Gamification platform',
-    github: 'https://github.com/MarwaAshraf1812',
-    demo: '#'
+    github: 'https://github.com/MarwaAshraf1812/Noor.git',
+    demo: 'https://github.com/MarwaAshraf1812/Noor.git'
   },
   {
     title: 'InnoVest',
     tag: 'Backend',
     category: [ 'Backend'],
-    image: 'https://via.placeholder.com/600x400/1A1825/A78BFA?text=InnoVest',
-    description: 'Architected a high-performance investment ecosystem connecting entrepreneurs, investors, and mentors. Built on Clean Architecture and OOP principles.',
+    image: InnoVest,
+    description: 'Architected a high-performance investment ecosystem built on Clean Architecture and OOP principles.',
     tags: ['Clean Architecture', 'Socket.IO', 'Jest', 'MongoDB'],
     metric: '90% test coverage',
-    github: 'https://github.com/MarwaAshraf1812',
-    demo: '#'
+    github: 'https://github.com/Innovest-org/server',
+    demo: 'https://github.com/Innovest-org/server'
   },
   {
     title: 'Create Arch CLI',
     tag: 'DevTools · Solo',
     category: ['Backend', 'DevTools'],
-    image: 'https://via.placeholder.com/600x400/1A1825/A78BFA?text=Create+Arch+CLI',
-    description: 'Developed an automation CLI tool using Node.js to scaffold standardized Express.js backend architectures, instantly generating clean directory structures, routes, and controllers.',
+    image: cliImg,
+    description: 'Developed a CLI tool to automate and scaffold standardized Express.js backend architectures.',
     tags: ['Node.js', 'CLI', 'Automation', 'JavaScript'],
     metric: 'Zero-Config Setup',
     github: 'https://github.com/MarwaAshraf1812/create-arch-cli',
-    demo: '#'
+    demo: 'https://github.com/MarwaAshraf1812/create-arch-cli'
+  },
+  {
+    title: "Milton's Choco Coffee",
+    tag: 'Web App · Solo',
+    category: ['Frontend'],
+    image: IcedIMg,
+    description: 'Developed an interactive customization dashboard using React and MUI with real-time state-driven menus.',
+    tags: ['React', 'Material UI', 'Vite', 'Emotion'],
+    metric: 'Customization Engine',
+    github: 'https://github.com/MarwaAshraf1812/ITI_Projects/tree/main/MUI/D02/IceCoffeeApp',
+    demo: 'https://github.com/MarwaAshraf1812/ITI_Projects/tree/main/MUI/D02/IceCoffeeApp'
   },
   {
     title: 'Harry Potter Task Manager',
     tag: 'Web App · Solo',
     category: ['Frontend'],
-    image: 'https://via.placeholder.com/600x400/1A1825/A78BFA?text=HP+Task+Manager',
-    description: 'Engineered a dynamic Task Management dashboard using Angular. Integrated core state mechanisms and an immersive Harry Potter theme with responsive UI tracking tools.',
+    image: taskImg,
+    description: 'Engineered a dynamic task management dashboard using Angular with an immersive themed UI.',
     tags: ['Angular', 'TypeScript', 'RxJS', 'HTML/CSS'],
     metric: 'Interactive UX',
     github: 'https://github.com/MarwaAshraf1812/ITI_Projects/tree/main/Angular/harryPotter-taskManager',
-    demo: '#'
-  },
-  {
-    title: 'Tech News App',
-    tag: 'Web App · Solo',
-    category: ['Frontend'],
-    image: 'https://via.placeholder.com/600x400/1A1825/A78BFA?text=Tech+News+App',
-    description: 'Built a real-time tech news aggregation interface in React, utilizing structured component architecture and robust state management to parse and display top technical feeds.',
-    tags: ['React', 'Context API', 'JavaScript', 'RESTful API'],
-    metric: 'Dynamic Feed',
-    github: 'https://github.com/MarwaAshraf1812/ITI_Projects/tree/main/react/tech-news-app',
-    demo: '#'
-  },
-  {
-    title: 'Wizard Memory Game',
-    tag: 'Game · Solo',
-    category: ['Frontend'],
-    image: 'https://via.placeholder.com/600x400/1A1825/A78BFA?text=Memory+Game',
-    description: 'Developed a high-performance card matching memory game leveraging TypeScript to enforce strict typing, handling core state evaluation, custom logic, and smooth interactive DOM updates.',
-    tags: ['TypeScript', 'OOP', 'DOM Manipulation', 'CSS Canvas'],
-    metric: 'Strict Type-Safety',
-    github: 'https://github.com/MarwaAshraf1812/ITI_Projects/tree/main/typescript/day2/memoryGame',
-    demo: '#'
-  },
+    demo: 'https://github.com/MarwaAshraf1812/ITI_Projects/tree/main/Angular/harryPotter-taskManager'
+  }
 ];

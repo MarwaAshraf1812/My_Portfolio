@@ -93,10 +93,10 @@ export default function Skills() {
             {topRowRepeated.map((category, idx) => (
               <div
                 key={`top-${category.title}-${idx}`}
-                className="w-[290px] sm:w-[340px] p-6 rounded-2xl border border-slate-200/50 dark:border-slate-800 bg-[#F9FAFB] dark:bg-[#1A1825] hover:border-[#A78BFA]/40 hover:shadow-lg hover:shadow-purple-500/5 transition-all duration-300 flex flex-col justify-between flex-shrink-0"
+                className="w-[270px] sm:w-[310px] p-4 sm:p-5 rounded-2xl border border-slate-200/50 dark:border-slate-800 bg-[#F9FAFB] dark:bg-[#1A1825] hover:border-[#A78BFA]/40 hover:shadow-lg hover:shadow-purple-500/5 transition-all duration-300 flex flex-col justify-between flex-shrink-0"
               >
                 <div>
-                  <div className="flex items-center space-x-3 mb-5">
+                  <div className="flex items-center space-x-3 mb-3.5">
                     <div className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-[#13121A] flex items-center justify-center shadow-inner">
                       {renderCategoryIcon(category.icon, category.gradient)}
                     </div>
@@ -127,10 +127,10 @@ export default function Skills() {
             {bottomRowRepeated.map((category, idx) => (
               <div
                 key={`bottom-${category.title}-${idx}`}
-                className="w-[290px] sm:w-[340px] p-6 rounded-2xl border border-slate-200/50 dark:border-slate-800 bg-[#F9FAFB] dark:bg-[#1A1825] hover:border-[#A78BFA]/40 hover:shadow-lg hover:shadow-purple-500/5 transition-all duration-300 flex flex-col justify-between flex-shrink-0"
+                className="w-[270px] sm:w-[310px] p-4 sm:p-5 rounded-2xl border border-slate-200/50 dark:border-slate-800 bg-[#F9FAFB] dark:bg-[#1A1825] hover:border-[#A78BFA]/40 hover:shadow-lg hover:shadow-purple-500/5 transition-all duration-300 flex flex-col justify-between flex-shrink-0"
               >
                 <div>
-                  <div className="flex items-center space-x-3 mb-5">
+                  <div className="flex items-center space-x-3 mb-3.5">
                     <div className="w-10 h-10 rounded-xl bg-slate-100 dark:bg-[#13121A] flex items-center justify-center shadow-inner">
                       {renderCategoryIcon(category.icon, category.gradient)}
                     </div>
