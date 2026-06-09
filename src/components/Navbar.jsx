@@ -39,9 +39,9 @@ export default function Navbar({ isDark, setIsDark, activeSection }) {
         >
           <a
             href="#about"
-            className="font-display font-black text-xl tracking-tight text-slate-900 dark:text-white hover:opacity-90 transition-opacity"
+            className="flex items-center hover:opacity-95 transition-opacity"
           >
-            M<span className="text-[#A78BFA]">.</span>
+            <img src="/logo.png" alt="Marwa Ashraf Logo" className="h-6 w-auto rounded-md" />
           </a>
 
           <div className="hidden sm:flex items-center space-x-6">
